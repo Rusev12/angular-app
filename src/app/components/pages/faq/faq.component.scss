@@ -1,0 +1,60 @@
+/*faq-css*/
+.faq-accordion {
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.08);
+    background: var(--whiteColor);
+    border-radius: 10px;
+    padding: 60px;
+}
+.faq-contact {
+    padding: 60px;
+    margin-top: 45px;
+    border-radius: 4px;
+    background: var(--whiteColor);
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.08);
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    form {
+        .btn {
+            margin-top: 10px;
+        }
+    }
+    textarea.form-control {
+        height: auto;
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .faq-accordion {
+        padding: 0;
+        box-shadow: unset;
+    }
+    .faq-contact {
+        padding: 30px 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1550px) {
+
+}
