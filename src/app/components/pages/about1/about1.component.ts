@@ -13,6 +13,14 @@ export class About1Component implements OnInit {
     ngOnInit(): void {
     }
 
+	btnVal = "Все още не сте избрали!";
+     myShows = ['Интерлийз', 'Прокредит', 'Квот такоа'];
+
+	myFunc(){
+		this.btnVal = this.myShows[Math.floor(Math.random() * this.myShows.length)];
+		console.log("function called");
+	  }
+
     teamSlides: OwlOptions = {
 		loop: true,
 		nav: false,

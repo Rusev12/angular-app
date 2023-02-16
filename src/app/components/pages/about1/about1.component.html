@@ -5,7 +5,7 @@
     <div class="d-table">
         <div class="d-table-cell">
             <div class="container">
-                <h2>За нас</h2>
+                <h2>За Митака</h2>
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@
 </div>
 
 <!-- About -->
-<div class="about-area ptb-80">
+<!-- <div class="about-area ptb-80">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
@@ -64,10 +64,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Team -->
-<div class="team-area ptb-80 bg-f9f6f6">
+<!-- <div class="team-area ptb-80 bg-f9f6f6">
     <div class="container">
         <div class="section-title">
             <h2>Our Awesome Team</h2>
@@ -281,20 +281,20 @@
             </owl-carousel-o>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Ready to Talk -->
-<div class="ready-to-talk">
+<!-- <div class="ready-to-talk">
     <div class="container">
         <h3>Ready to talk?</h3>
         <p>Our team is here to answer your question about Profun</p>
         <a routerLink="/contact" class="btn btn-primary">Contact Us</a>
         <span><a routerLink="/">Or, get started now with a free trial</a></span>
     </div>
-</div>
+</div> -->
 
 <!-- Partner -->
-<div class="partner-area partner-section">
+<!-- <div class="partner-area partner-section">
     <div class="container">
         <h5>More that 1.5 million businesses and organizations use Profun</h5>
         <div class="partner-inner">
@@ -410,17 +410,17 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Funfacts -->
 <div class="funfacts-area ptb-80">
     <div class="container">
         <div class="section-title">
-            <h2>We always try to understand users expectation</h2>
+            <h2>За да изберете компания натиснете долния бутон!</h2>
             <div class="bar"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-3 col-md-3 col-6 col-sm-3">
                 <div class="funfact">
                     <h3><span [countUp]="180">00</span>K</h3>
@@ -445,11 +445,11 @@
                     <p>Contributors</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="contact-cta-box">
-            <h3>Have any question about us?</h3>
-            <p>Don't hesitate to contact us</p>
-            <a routerLink="/contact" class="btn btn-primary">Contact Us</a>
+            <h3>{{btnVal}}</h3>
+            <p></p>
+            <a (click)="myFunc()" class="btn btn-primary">Избери компания</a>
         </div>
         <div class="map-bg">
             <img src="assets/img/map.png" alt="map">
